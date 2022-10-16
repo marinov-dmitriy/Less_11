@@ -1,0 +1,92 @@
+header{
+	height: 80px;
+	margin-bottom: 50px;
+}
+.content__build{
+	position: relative;
+}
+.build__img{
+	visibility: hidden;
+	position: absolute;
+}
+
+
+
+
+.build a:focus ~ .lada-bott{
+	visibility: visible;
+	bottom: 80px;
+	right: 310px;
+	transition: 1s;
+}
+.build a:focus ~ .lada-door{
+	transition: 1s;
+	visibility: visible;
+	bottom: 226px;
+	left: 258px;
+}
+.build a:focus ~ .lada-front{
+	transition: 1s;
+	visibility: visible;
+	right: 736px;
+	top: 175px;
+}
+.build a:focus ~ .lada-roof{
+	transition: 1s;
+	visibility: visible;
+	top: 127px;
+	left: 258px;
+}
+.lada-bott{
+	bottom: 8px;
+	right: 10px;
+}
+.lada-door{
+	bottom: 6px;
+	left: 2px;
+
+}
+.lada-front{
+	right: 36px;
+	top: 15px;
+}
+.lada-roof{
+	top: 7px;
+	left: 25px;
+}
+.content__build{
+	width: 1000px;
+	height: 500px;
+	border: 3px solid rgb(236, 107, 1);
+	background: rgb(121, 120, 120);
+	margin: 0 auto;
+	border-radius: 15px;
+	padding: 10px;
+}
+.build__a{
+	letter-spacing: 1px;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.content__info{
+	width: 1000px;
+	margin: 30px auto 0;
+	background: rgb(144, 163, 170);
+	padding: 15px;
+	min-height: 280px;
+	border-radius: 15px;
+	border: 3px solid rgb(0, 174, 255);
+}
+.info__title{
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.info__list li{
+	margin-left: 40px;
+	font-size: 18px;
+	line-height: 1.8;
+}
+

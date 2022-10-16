@@ -1,0 +1,68 @@
+header{
+	height: 80px;
+	margin-bottom: 30px;
+}
+.main__title {
+	margin: 0 auto 80px;
+	
+	color: rgb(255, 255, 255);
+	width: 395px;
+	font-weight: 700;
+	font-size: 38px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.main__title::before{
+	content: ' ';
+	background: url(../img/bluemed.png) 0 0 no-repeat;
+	padding-left: 40px;
+}
+.main__title::after{
+	content: ' ';
+	background: url(../img/redmed.png) 0 0 no-repeat;
+	padding-right: 50px;
+}
+.card{
+	width: 800px;
+	margin: 0 auto;
+}
+.card div{
+	min-height: 600px;
+	box-shadow: 0 0 20px rgb(0, 204, 255);
+	border-radius: 15px;
+}
+.card__mustang {
+	background: url(../img/mustanglogo.png) 0 no-repeat;
+	display: inline-block;
+	width: 320px;
+	margin-right: 155px;
+}
+.lada__p,
+.mustang__p {
+	width: 180px;
+	line-height: 1.4;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(0, 204, 255);
+	padding-top: 10px;
+}
+.card .card__lada {
+	background: url(../img/logolada.png) 0 no-repeat;
+	display: inline-block;
+	width: 320px;
+	box-shadow: 0 0 20px rgb(255, 0, 0);
+}
+.lada__p {
+	width: 100px;
+	color: rgb(255, 0, 0);
+}
+.card__a:hover div{
+	transition: 0.7s;
+	box-shadow: 0 0 30px rgb(182, 181, 181);
+}
+.card__a:hover p{
+	transition: 0.7s;
+	color: rgb(182, 181, 181);
+}
